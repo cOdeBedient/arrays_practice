@@ -11,3 +11,12 @@
 var fish = ["tuna", "mackerel", "flounder", "carp"];
 var temperatures = [0, 32, 74, 90];
 var votes = [true, true, false, true];
+
+// remove the last element from the array fish.
+fish.pop();
+
+// add -4 in the 4th index position of the array temperatures.
+temperatures.push(-4);
+
+// print elements of the array votes beginning with element in the second spot and ending with the element in the third spot.
+console.log(votes.slice(1, 3));
